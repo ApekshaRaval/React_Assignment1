@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
-import NavBar from './Components/NavBar';
+
+import Home from './Components/Home';
+import AboutUS from "./Components/AboutUS"
+import Services from './Components/Services';
+import Team from './Components/Team';
+import Projects from './Components/Projects';
 
 function App() {
   return (
-    <div className="App">
-  <NavBar/>
+    <div>
+  <Home/>
+ <AboutUS/>
+ <Services/>
+ <Team/>
+ <Projects/>
     </div>
   );
 }

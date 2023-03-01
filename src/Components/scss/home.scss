@@ -1,0 +1,76 @@
+* {
+    font-family: 'Rubik';
+}
+
+.home {
+    position: relative;
+    height: 900px
+}
+
+.Asset1 {
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+}
+
+
+.Asset2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.Asset3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Asset4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ManwithSpeaker {
+    position: absolute;
+    // width: 400.63px;
+    left: 142.19px;
+    bottom: 0;
+    z-index: 1
+}
+
+.cloud {
+    position: absolute;
+    // width: 1403px;
+    height: 500.19px;
+    left: -6px;
+    bottom: 0;
+    // top: 116px;
+}
+
+.text {
+    position: absolute;
+    // width: 459px;
+    // height: 198px;
+    right: 100px;
+    top: 277px;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.text h3 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+@media screen and (min-width:300) {}
