@@ -4,14 +4,31 @@
 
 .home {
     position: relative;
-    height: 900px
+    height: 900px;
+    @media screen and (max-width:992px)  {
+            position: relative;
+            height: 500px
+       
+}
 }
 
 .Asset1 {
     position: absolute;
-
     left: 0px;
     top: 0px;
+   
+    @media screen and (max-width:992px)  {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        max-width: 100px !important;
+    }
+
 }
 
 
@@ -19,6 +36,19 @@
     position: absolute;
     right: 0px;
     top: 0px;
+  
+    @media screen and (max-width:992px)  {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        max-width: 180px;
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        max-width: 170px !important;
+    }
 }
 
 
@@ -26,51 +56,128 @@
     position: absolute;
     left: 0;
     bottom: 0;
+
+    
+    @media screen and (max-width:992px)  {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: 130px !important;
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: 120px !important;
+    }
 }
 
 .Asset4 {
     position: absolute;
     right: 0;
     bottom: 0;
+    // @media screen and (min-width:300px) and (max-width:570px) {
+    //     position: absolute;
+    //     right: 0;
+    //     max-width: 50px!important;
+    //     bottom: 0;
+    // }
+  
+    @media screen and (max-width:992px)  {
+        position: absolute;
+        right: 0;
+        max-width: 130px !important;
+        bottom: 0;
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute;
+        right: 0;
+        max-width: 100px !important;
+        bottom: 0;
+    }
 }
 
 .ManwithSpeaker {
     position: absolute;
-    // width: 400.63px;
-    left: 142.19px;
     bottom: 0;
-    z-index: 1
+    z-index: 1;
+   
+    @media screen and (max-width:992px)  {
+        position: absolute;      
+        bottom: 0;
+        z-index: 1;
+        max-width: 250px !important;
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute; 
+        bottom: 0;
+        z-index: 1;
+        max-width: 250px !important;
+    }
+    @media screen and (max-width:300px)  {
+        position: absolute; 
+        bottom: 0;
+        z-index: 1;
+        max-width: 200px !important;
+    }
 }
 
 .cloud {
-    position: absolute;
-    // width: 1403px;
-    height: 500.19px;
-    left: -6px;
+    position: absolute; 
     bottom: 0;
-    // top: 116px;
+    @media screen and (max-width:992px)  {
+        position: absolute;    
+        bottom: 0;
+        max-width: 450px !important;
+        
+    }
+    @media screen and (max-width:576px)  {
+        position: absolute;
+       
+        bottom: 0;
+        max-width: 300px !important;
+        
+    }
+    
 }
 
 .text {
     position: absolute;
-    // width: 459px;
-    // height: 198px;
     right: 100px;
     top: 277px;
-    font-family: 'Rubik';
-    font-style: normal;
+  
+    @media screen and (max-width:992px) {
+        position: relative !important;
+            right:0px !important;
+            top: 130px !important;
+            text-align: center;
+            h3{
+                font-size: 20px;
+    
+            }
+            p{
+                font-size: 14px;
+            }
+            
+        }
+        @media screen and (max-width:576px) {
+            position: relative !important;
+                right:0 !important;
+                top: 130px !important;
+                text-align: center;
+                h3{
+                    font-size: 20px;
+        
+                }
+                p{
+                    font-size: 14px;
+                }
+                
+            }
+    
 }
 
-.text h3 {
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 66px;
-}
-
-.text p {
-    font-size: 18px;
-    line-height: 21px;
-}
 
 
-@media screen and (min-width:300) {}
+
+

@@ -1,0 +1,27 @@
+// {
+//    margin-top:128px
+// }
+.client{
+   position: relative;
+   padding:20px;
+   margin:40px;
+}
+.style{
+   position: absolute;
+   border: 2px solid gray;
+}
+.Asset91{
+position: absolute;
+width:100px;
+left: 0px;
+top:0px;
+}
+
+.space{
+   padding-bottom:20px;
+}
+@media screen and (max-width:500px) {
+   .space{
+      padding-bottom:30px;
+   }
+}

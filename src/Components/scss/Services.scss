@@ -3,21 +3,64 @@
 }
 .services{
     position: relative;
-}
-.Asset5{
-    width:200px;
-    position: absolute;
-left:0;
-top:0;
+    margin:30px;
+   
 }
 
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
 .img1{
 position: absolute;
 width: 454px;
 height: 375px;
-// left: 902px;
-// top: 1694px;
+
 }
-// .section{
-//     margin:20px;
-// }
+
+.Asset51{
+position: absolute;
+top:-60px;
+left:0;
+width:185px;
+@media screen and (max-width:480px) {
+    width:135px;
+}
+}
+
+.Asset61{
+ position: absolute;
+right:0px;
+top:300px;
+width:130px;
+@media screen and (max-width:480px) {
+    
+    width:90px !important;
+}
+}
+
+.Asset71{
+    position: absolute;
+    left:0px;
+    top:630px;
+    width:115px;
+    @media screen and (max-width:480px) {
+        
+        width:90px;
+       
+    }
+}
+.Asset82{
+    position: absolute; 
+   right:0px;
+    top: 900px;
+    width:140px;
+    @media screen and (max-width:480px) {
+        
+        width:100px;
+       
+    }
+}
+

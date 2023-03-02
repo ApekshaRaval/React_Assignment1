@@ -1,6 +1,29 @@
 .Team{
-    position: relative;
+    position: relative
 }
 .img{
     position: absolute;
 }
+.Asset52{
+    position: absolute;
+    left:0;
+    top:-24px;
+    width:160px;
+    @media screen and (max-width:480px) {
+        
+        width:150px;
+       
+    }
+    }
+    .Asset83{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        width: 170px;
+        @media screen and (max-width:480px) {
+        
+            width:115px;
+           
+        }
+       
+      }

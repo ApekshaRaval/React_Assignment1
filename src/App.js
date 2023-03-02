@@ -7,15 +7,23 @@ import Services from './Components/Services';
 import Team from './Components/Team';
 import Projects from './Components/Projects';
 
+import Clients from './Components/Clients';
+import Footer from './Components/Footer';
+import ContactUs from "./Components/ContactUs"
+
+
 function App() {
   return (
-    <div>
+    <>
   <Home/>
  <AboutUS/>
  <Services/>
  <Team/>
  <Projects/>
-    </div>
+ <Clients/>
+ <ContactUs/>
+<Footer/>
+    </>
   );
 }
 

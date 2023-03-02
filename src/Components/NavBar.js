@@ -78,7 +78,7 @@ function NavBar() {
   return (
     <Navbar expand="lg">
       <Container>
-      <img src ={Logo1} className='logo img-fluid' alt='Logo'/>
+      <img src ={Logo1} className='logo' alt='Logo'/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav">

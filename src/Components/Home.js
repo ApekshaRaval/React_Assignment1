@@ -3,7 +3,7 @@ import "./scss/home.scss"
 import Asset1 from '../Assets/Asset 1.svg'
 import Asset2 from '../Assets/Asset 2.svg'
 import Asset3 from '../Assets/Assets 3.svg'
-import Asset4 from '../Assets/Assets 4.svg'
+import Asset4 from '../Assets/Asset4.svg'
 import cloud from '../Assets/cloud.svg'
 import ManwithSpeaker from '../Assets/ManwithSpeaker.svg'
 
@@ -41,10 +41,7 @@ const Home = () => {
                 <img src={Asset3} className='Asset3 img-fluid' alt='Logo' />
                 <img src={Asset4} className='Asset4 img-fluid' alt='Logo' />
                 </div>
-               
-           
-
-            {/* section 3 */}
+        
           
         </div>
     )

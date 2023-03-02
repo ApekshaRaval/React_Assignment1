@@ -1,0 +1,23 @@
+
+.highlight{
+    font-weight: bold;   
+}
+.main{
+    background-color: #BFDBFF;
+    
+}
+.contact{
+    padding: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0;
+    @media screen and (max-width:320px) {
+        text-align: center;
+        
+    }
+}
+
