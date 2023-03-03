@@ -14,14 +14,25 @@
     }
 
 }
+.bolder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
 
 .index {
     z-index: 1;
 }
 
 .background {
+    background-color: transparent;
+    @media screen and (max-width:992px) {
+        background-image: linear-gradient(to top right,white,white, #dcb8ff);
+        border-radius: 10px;
+        color: black;
+        z-index: -1;
 
-    background-color: white;
-    color: black;
-    z-index: -1;
+    }
+    
 }

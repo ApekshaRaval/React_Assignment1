@@ -30,14 +30,14 @@ const Clients = () => {
           <h1 className='text-center bold'>OUR CLIENTS</h1>
           <hr className='style' />
         </div>
-        <div className='row space'>
-          <div className='col-lg-2 col-sm-12 text-center'>
+        <div className='row space base'>
+          <div className='col-lg-3 col-sm-12 text-center'>
             <img src={Layer19} onMouseOver={(e) => e.target.src = Layer1} onMouseOut={(e) => e.target.src = Layer19} alt="logo" className='space' />
           </div>
           <div className='col-lg-2 col-md-12 text-center'>
             <img src={Layer2} onMouseOver={(e) => e.target.src = Layer20} onMouseOut={(e) => e.target.src = Layer2} alt="logo" className='space' />
           </div>
-          <div className='col-lg-2 col-sm-12 text-center'>
+          <div className='col-lg-3 col-sm-12 text-center'>
             <img src={Layer3} onMouseOver={(e) => e.target.src = Layer21} onMouseOut={(e) => e.target.src = Layer3} alt="Facebook" className='space' />
           </div>
           <div className='col-lg-2 col-sm-12 text-center'>
@@ -48,18 +48,18 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className='row space'>
-          <div className='col-lg-3 col-sm-12 text-center'>
+        <div className='row space base'>
+          <div className='col-lg-3 col-sm-12 text-center '>
             <img src={Layer6} onMouseOver={(e) => e.target.src = Layer24} onMouseOut={(e) => e.target.src = Layer6} alt="Facebook" className='space' />
           </div>
-          <div className='col-lg-3 col-sm-12 text-center'>
-            <img src={Layer7} onMouseOver={(e) => e.target.src = Layer25} onMouseOut={(e) => e.target.src = Layer7} alt="Facebook" className='space' />
+          <div className='col-lg-3 col-sm-12 text-center '>
+            <img src={Layer7} onMouseOver={(e) => e.target.src = Layer25} onMouseOut={(e) => e.target.src = Layer7} alt="Facebook" className='space image' />
           </div>
           <div className='col-lg-3 col-sm-12 text-center'>
-            <img src={Layer8} onMouseOver={(e) => e.target.src = Layer26} onMouseOut={(e) => e.target.src = Layer8} alt="Facebook" className='space' />
+            <img src={Layer8} onMouseOver={(e) => e.target.src = Layer26} onMouseOut={(e) => e.target.src = Layer8} alt="Facebook" className='space img2' />
           </div>
           <div className='col-lg-3 col-sm-12 text-center'>
-            <img src={Layer9} onMouseOver={(e) => e.target.src = Layer27} onMouseOut={(e) => e.target.src = Layer9} alt="Facebook" className='space' />
+            <img src={Layer9} onMouseOver={(e) => e.target.src = Layer27} onMouseOut={(e) => e.target.src = Layer9} alt="Facebook" className='space img2' />
           </div>
 
         </div>

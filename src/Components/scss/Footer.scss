@@ -6,7 +6,9 @@
     background-color: #BFDBFF;
 
 }
-
+.wrp{
+    overflow-wrap: break-word;
+}
 .contact {
     padding: 20px;
 }
@@ -16,6 +18,21 @@
         text-align: center;
 
     }
+}
+.contact1{
+    @media screen and (max-width:576px) {
+        // text-align: center;
+        padding-bottom: 20px;
+
+    }
+}
+.contactus{
+    @media screen and (max-width:1024px) {
+        // text-align: center;
+        padding-bottom: 20px;
+
+    }
+  
 }
 
 .footer {

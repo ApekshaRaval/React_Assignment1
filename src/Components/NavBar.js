@@ -81,11 +81,11 @@ function NavBar() {
         <img src={Logo1} className='logo' alt='Logo' />
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-none ' />
         <Navbar.Collapse id="basic-navbar-nav" className='index'>
-          <Nav className="ms-auto nav background">
-            <Nav.Link href="#home" className='text-dark'>About Us</Nav.Link>
-            <Nav.Link href="#link" className='text-dark'>Services</Nav.Link>
-            <Nav.Link href="#link" className='text-dark'>Clients</Nav.Link>
-            <Nav.Link href="#link" className='text-dark'>Contact Us</Nav.Link>
+          <Nav className="ms-auto nav background bolder">
+            <Nav.Link href="#home" className='bolder'>About Us</Nav.Link>
+            <Nav.Link href="#link" className='bolder'>Services</Nav.Link>
+            <Nav.Link href="#link" className='bolder'>Clients</Nav.Link>
+            <Nav.Link href="#link" className='bolder'>Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

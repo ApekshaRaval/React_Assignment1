@@ -154,21 +154,20 @@
     right: 80px;
     top: 247px;
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
 
     @media screen and (max-width:992px) {
         // position: relative !important;
-        right: 0px !important;
-        top: 130px !important;
+        // right: 0px !important;
+        margin: auto;
+        top: 220px !important;
         text-align: center;
         width: 300px;
-
+        right: 0;
 
     }
-
     @media screen and (max-width:576px) {
         // position: relative !important;
         right: 0 !important;
@@ -176,36 +175,30 @@
         text-align: center;
         width: 200px;
 
-        h3 {
-            font-size: 20px;
-
-        }
-
-        p {
-            font-size: 14px;
-        }
-
     }
+ 
+
+ 
 
 }
 
 .text h3 {
     font-style: normal;
-    font-weight: bolder;
+    font-weight:1000;
     font-size: 56px;
     line-height: 66px;
 
     @media screen and (max-width:992px) {
         font-size: 30px;
         line-height: 36px;
-        font-weight: bolder;
+        font-weight:1000;
     }
 
 
     @media screen and (max-width:576px) {
         font-size: 20px;
         line-height: 36px;
-        font-weight: bolder;
+        font-weight:1000;
     }
 
    
@@ -215,16 +208,20 @@
 .text p {
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 550;
     font-size: 18px;
     line-height: 21px;
 
     @media screen and (max-width:992px) {
         font-size: 14px;
+        font-weight: 450;
+    
+    line-height: 21px;
     }
 
     @media screen and (max-width:576px) {
         font-size: 14px;
+        font-weight: 450;
     }
 
 

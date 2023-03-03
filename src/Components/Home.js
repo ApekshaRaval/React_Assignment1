@@ -32,7 +32,7 @@ const Home = () => {
 
                 <div className='col-md-4 text'>
 
-                    <h3 className=''>Mendleson Communication and Engagement</h3>
+                    <h3 className='bold'>Mendleson Communication and Engagement</h3>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sed ipsum, ut quam volutpat, tortor.</p>
                 </div>
             </div>

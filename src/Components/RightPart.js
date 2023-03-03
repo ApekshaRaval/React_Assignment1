@@ -7,7 +7,7 @@ const RightPart = (props) => {
       <div className='col-md-6 col-sm-12 '>
         <img src={props.img} alt="logo" className='img-fluid' />
       </div>
-      <div className='col-md-6 col-sm-12 '>
+      <div className='col-md-6 col-sm-12 m-auto '>
         <h4 className='left bold mb-4'>{props.title}</h4>
         <p className='left'>{props.para}</p>
       </div>

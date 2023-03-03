@@ -25,7 +25,7 @@ const Services = () => {
         <img src={Asset61} className='Asset61 img-fluid' alt='Logo' />
         <img src={Asset82} className='Asset82 img-fluid' alt='Logo' />
         <div>
-          <h1 className='head'>SERVICES</h1>
+          <h1 className='head bold'>SERVICES</h1>
           {/* <hr/> */}
         </div>
 

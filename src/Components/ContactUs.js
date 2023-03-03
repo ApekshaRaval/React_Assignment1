@@ -11,7 +11,7 @@ const ContactUs = () => {
       <div className='container main'>
         <div className='row contact'>
 
-          <div className='col-md-6 col-xl-3 col-sm-12 center1 space'>
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 contactus'>
 
             <span className='highlight p-4'>Social</span>
             <br />
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
 
 
-          <div className='col-md-6 col-xl-3 col-sm-12  center1 space'>
+          <div className='col-md-6 col-xl-3 col-sm-12 contactus center1 '>
 
             <span className='highlight'>Explore</span>
             <br />
@@ -39,7 +39,7 @@ const ContactUs = () => {
           </div>
 
 
-          <div className='col-md-6 col-xl-3 col-sm-12 center1 space'>
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 contact1 '>
 
             <span className='highlight'>Contact</span>
             <br />
@@ -51,7 +51,7 @@ const ContactUs = () => {
 
           </div>
 
-          <div className='col-md-6 col-xl-3 col-sm-12 center1 space '>
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 contact1 wrp '>
             <span className='highlight'>Email</span>
             <br />
             <span className=''>mendlesoncommunication@email.com</span>
