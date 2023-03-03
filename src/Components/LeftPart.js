@@ -4,8 +4,8 @@ const LeftPart = (props) => {
 
     return (
         <div className='row p-4'>
-            <div className='col-md-6 col-sm-12 p-2'>
-                <h4 className='right'>{props.title}</h4>
+            <div className='col-md-6 col-sm-12  m-auto'>
+                <h4 className='right bold mb-4'>{props.title}</h4>
                 <p className='right'>{props.para}</p>
             </div>
             <div className='col-md-6 col-sm-12'>

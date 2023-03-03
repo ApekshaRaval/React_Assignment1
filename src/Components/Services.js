@@ -17,51 +17,55 @@ import RightPart from './RightPart'
 import LeftPart from './LeftPart'
 const Services = () => {
   return (
-    <div className="container-fluid services">
-       
-       <div className='logos'> 
-       <img src={Asset51} className='Asset51 img-fluid' alt='Logo' /> 
-       <img src={Asset71} className='Asset71 img-fluid' alt='Logo' />
-       <img src={Asset61} className='Asset61 img-fluid' alt='Logo' />
-       <img src={Asset82} className='Asset82 img-fluid' alt='Logo' />
-        <h1 className=' text-center'>SERVICES</h1>
-        
+    <div className="container-fluid services ">
+
+      <div className='logos'>
+        <img src={Asset51} className='Asset51 img-fluid' alt='Logo' />
+        <img src={Asset71} className='Asset71 img-fluid' alt='Logo' />
+        <img src={Asset61} className='Asset61 img-fluid' alt='Logo' />
+        <img src={Asset82} className='Asset82 img-fluid' alt='Logo' />
+        <div>
+          <h1 className='head'>SERVICES</h1>
+          {/* <hr/> */}
         </div>
-         <div className='container p-3'>
+
+
+      </div>
+      <div className='container p-3'>
         <div className='col-sm-12'>
-        <LeftPart 
-        img={Engagementvector}
-         title={"ENGAGEMENT"}
-         para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
-         />
+          <LeftPart
+            img={Engagementvector}
+            title={"ENGAGEMENT"}
+            para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
+          />
 
-         <RightPart 
-         img={Coominucationvector }
-         title={"COMMUNICATIONS"}
-         para={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus quam quis egestas orci. Scelerisque eu, vitae sapien, pellentesque et. Sit ac fames facilisis nibh faucibus. "}
-         />
-       
+          <RightPart
+            img={Coominucationvector}
+            title={"COMMUNICATIONS"}
+            para={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus quam quis egestas orci. Scelerisque eu, vitae sapien, pellentesque et. Sit ac fames facilisis nibh faucibus. "}
+          />
 
-            <LeftPart 
-        img={facilationvector }
-         title={"FACILITATION"}
-         para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
-         />
-          
-         <RightPart
-         img={Consultationvector }
-         title={"CONSULTATION AND RESEARCH"}
-         para={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus quam quis egestas orci. Scelerisque eu, vitae sapien, pellentesque et. Sit ac fames facilisis nibh faucibus.  "}
-         />
-       
-       <LeftSec 
-        img={Trainingvector}
-         title={"TRANING & MENTORING"}
-         para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
-         />
+
+          <LeftPart
+            img={facilationvector}
+            title={"FACILITATION"}
+            para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
+          />
+
+          <RightPart
+            img={Consultationvector}
+            title={"CONSULTATION AND RESEARCH"}
+            para={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus quam quis egestas orci. Scelerisque eu, vitae sapien, pellentesque et. Sit ac fames facilisis nibh faucibus.  "}
+          />
+
+          <LeftSec
+            img={Trainingvector}
+            title={"TRANING & MENTORING"}
+            para={"We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources."}
+          />
         </div>
-</div>
-       </div>
+      </div>
+    </div>
   )
 }
 

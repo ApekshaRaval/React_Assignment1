@@ -3,7 +3,7 @@ import "./scss/Footer.scss"
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div className='text-center'>
       <p className='footer'>© Copyright 2018 Mendleson Communication Pty Ltd </p>
     </div>
   )

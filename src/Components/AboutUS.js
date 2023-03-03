@@ -14,10 +14,14 @@ const AboutUS = () => {
           <img src={aboutUs} className=' img-fluid' alt='Logo' />
         </div>
 
-        <div className='col-md-6 m-auto col-sm-12'>
+        <div className='col-md-6 m-auto col-sm-12 about1'>
 
-          <div className='row '>
-            <h1 className=''>ABOUT US </h1>
+          <div className='row'>
+            <div className='mb-3'>
+              <h1 className='bold'>ABOUT US </h1>
+
+            </div>
+
             <p>We love what we do and are driven by achieving great results for our clients. Our awards and impressive client list are testament to our high quality approach. We deliver value, creaKvity, results and excepKonal levels of customer service and professionalism. We specialise in infrastructure development, energy and natural resources.</p>
           </div>
 
@@ -25,13 +29,13 @@ const AboutUS = () => {
             <div className='col-md-6 col-sm-12'>
               <img src={Enagagementicon} className='serviceIcon img-fluid' alt='Logo' />
               <h5 className='engagement'>ENGAGEMENT</h5>
-              <p className='engagement'>We are engagement specialists, who have led projects at all levels of the IAP2 spectrum.
+              <p className=''>We are engagement specialists, who have led projects at all levels of the IAP2 spectrum.
                 READ MORE</p>
             </div>
             <div className='col-md-6 col-sm-12'>
               <img src={communicationIcon} className='communicationIcon img-fluid' alt='Logo' />
-              <h5 className='comm'>COMMUNICATIONS</h5>
-              <p className='comm'>We are award-winning leaders in communications and campaign management.
+              <h5 className='engagement'>COMMUNICATIONS</h5>
+              <p className=''>We are award-winning leaders in communications and campaign management.
                 READ MORE</p>
             </div>
           </div>

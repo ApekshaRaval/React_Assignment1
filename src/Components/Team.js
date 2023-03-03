@@ -11,36 +11,36 @@ import Asset83 from "../Assets/Asset 8 3.svg"
 const Team = () => {
   return (
     <div className='container-fluid Team '>
-          <img src={Asset52} className='Asset52 img-fluid' alt='Logo' />
-       <img src={Asset83} className='Asset83 img-fluid' alt='Logo' />
-       
-       <div className='container '>
-    
-      <div className='col-12'>
-        <h2 className='text-center'>OUR TEAM</h2>
-      </div>
+      <img src={Asset52} className='Asset52 img-fluid' alt='Logo' />
+      <img src={Asset83} className='Asset83 img-fluid' alt='Logo' />
 
-      <div className='row text-center'>
-      <div className='col'>
-        <TeamMember 
-        img={Person1}
-        name={"Jessica D'suza"} className="img"/>
-         </div>
-         <div className='col'>
-         <TeamMember 
-        img={Person2}
-        name={"Johny Williams"}/>
-         </div>
-        
-        <div className='col'>
-        <TeamMember 
-        img={Person3}
-        name={"Sanya R"}/>
+      <div className='container '>
+
+        <div className='col-12 mb-4'>
+          <h2 className='text-center bold'>OUR TEAM</h2>
         </div>
-      
+
+        <div className='row text-center'>
+          <div className='col'>
+            <TeamMember
+              img={Person1}
+              name={"Jessica D'suza"} className="img" />
+          </div>
+          <div className='col'>
+            <TeamMember
+              img={Person2}
+              name={"Johny Williams"} />
+          </div>
+
+          <div className='col'>
+            <TeamMember
+              img={Person3}
+              name={"Sanya R"} />
+          </div>
+
         </div>
+      </div>
     </div>
-    </div> 
   )
 }
 

@@ -23,9 +23,9 @@
 //         <li><a>Clients</a></li>
 //         <li><a>Contact Us</a></li>
 //         </ul> */}
-        
+
 //     </nav>
-  
+
 // </header>
 //   )
 // }
@@ -77,15 +77,15 @@ import "./scss/NavBar.scss"
 function NavBar() {
   return (
     <Navbar expand="lg">
-      <Container>
-      <img src ={Logo1} className='logo' alt='Logo'/>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto nav">
-            <Nav.Link href="#home">About Us</Nav.Link>
-            <Nav.Link href="#link">Services</Nav.Link>
-            <Nav.Link href="#link">Clients</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+      <Container >
+        <img src={Logo1} className='logo' alt='Logo' />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-none ' />
+        <Navbar.Collapse id="basic-navbar-nav" className='index'>
+          <Nav className="ms-auto nav background">
+            <Nav.Link href="#home" className='text-dark'>About Us</Nav.Link>
+            <Nav.Link href="#link" className='text-dark'>Services</Nav.Link>
+            <Nav.Link href="#link" className='text-dark'>Clients</Nav.Link>
+            <Nav.Link href="#link" className='text-dark'>Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

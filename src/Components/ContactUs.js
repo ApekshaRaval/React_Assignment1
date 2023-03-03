@@ -9,60 +9,61 @@ const ContactUs = () => {
   return (
     <div className='container-fluid '>
       <div className='container main'>
-      <div className='row contact'>
+        <div className='row contact'>
 
-        <div className='col-md-3 col-sm-12 text-center space'>
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 space'>
 
-          <span className='highlight '>Social</span>
-          <br/>
-          <img src={facebook} alt="Facebook" className=''/>
-          <span className=''>Facebook</span>
-          <br/>
-          <img src={linkedin} alt="Facebook" className='' />
-          <span className=''>Linkedin</span>
-          <br/>
-          <img src={Google} alt="Facebook" className='' />
-          <span className=''>Google +</span>
-        </div>
+            <span className='highlight p-4'>Social</span>
+            <br />
+            <img src={facebook} alt="Facebook" className='' />
+            <span className='p-2'>Facebook</span>
+            <br />
+            <img src={linkedin} alt="Facebook" className='' />
+            <span className='p-2'>Linkedin</span>
+            <br />
+            <img src={Google} alt="Facebook" className='' />
+            <span className='p-2'>Google +</span>
+          </div>
 
 
-        <div className='col-md-3 col-sm-12 text-center space'>
+          <div className='col-md-6 col-xl-3 col-sm-12  center1 space'>
 
-          <span className='highlight'>Explore</span>
-          <br/>        
+            <span className='highlight'>Explore</span>
+            <br />
             <span className=''>Services</span>
-            <br/>
+            <br />
             <span className=''>Team</span>
-            <br/>
+            <br />
             <span className=''>Clients</span>
-         
+
+          </div>
+
+
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 space'>
+
+            <span className='highlight'>Contact</span>
+            <br />
+            <span className=''>Lorem Ipsum dummy address</span>
+            <br />
+            <span className=''>used for display</span>
+            <br />
+            <span className=''>1234567890</span>
+
+          </div>
+
+          <div className='col-md-6 col-xl-3 col-sm-12 center1 space '>
+            <span className='highlight'>Email</span>
+            <br />
+            <span className=''>mendlesoncommunication@email.com</span>
+          </div>
+
+
         </div>
-
-
-        <div className='col-md-3 col-sm-12 text-center space'>
-
-          <span className='highlight'>Contact</span>
-          <br />
-          <span className=''>Lorem Ipsum dummy address</span>
-          <br />
-          <span className=''>used for display</span>
-          <br/>
-          <span className=''>1234567890</span>
-
-        </div>
-
-        <div className='col-md-3 col-sm-12 text-center space'>
-          <span className='highlight'>Email</span>
-          <br />
-          <span className=''>mendlesoncommunication@email.com</span>
-        </div>
-
-
       </div>
-    </div>
     </div>
 
   )
 }
 
 export default ContactUs
+
